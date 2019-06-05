@@ -1,0 +1,57 @@
+.head{
+    font-family: 'Do Hyeon', sans-serif;
+    color:white;
+    font-size:20px;
+    background-color: #212529;
+    border-bottom:3px #fed136 solid;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    background-image: url("wallpaper.jpg");
+    padding-top: 50px;
+
+}
+
+h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    color:white;
+    text-align: center;
+  }
+
+.text {
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: #F5F5F5 ;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 40px;
+    padding-top: 20px;
+    height: 240px;
+    width: 320px;
+    opacity:0.9;
+    font-family: 'Do Hyeon', sans-serif;
+} 
+   
+.btn-back {
+    font-family: 'Do Hyeon', sans-serif;
+    display: inline-block;
+    float : right;
+    margin-right: 30px; 
+    font-size: 12px;
+    right:0;
+    background-color: #fed136; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}

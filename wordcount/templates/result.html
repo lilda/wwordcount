@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wordcountt</title>
+    <link rel="stylesheet" href="{% static 'result_style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon&amp;subset=korean" rel="stylesheet">
+</head>
+<body>
+    <h1>당신이 입력한 텍스트는 "{{total}}"개의 단어로 구성되어있습니다.</h1>
+    <h1>그리고 당신이 입력한 텍스트는 "{{length}}"개의 글자로 구성되어있습니다.</h1>
+    <h3>(띄어쓰기 포함)</h3>
+    <a href="{% url 'home' %}"><button class="btn-back">다시하기</button></a>
+    <br>
+    <div class=list>
+        <h2>입력한 텍스트 : </h2>
+        {{full}}
+        <h2> 단어 카운트 : </h2>
+        {% for word, howmany in dictionary %}
+            {{word}} : {{howmany}} 
+            <br>
+        {% endfor %}
+    </div>
+</body>
+</html>

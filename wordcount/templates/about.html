@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wordcount</title>
+    <link rel="stylesheet" href="{% static 'about_style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon&amp;subset=korean" rel="stylesheet">
+</head>
+<body>
+    <h1>About</h1>
+    <div class="text">이곳은 글자를 새주는 워드카운트 페이지입니다.</div>
+    <a href="{% url 'home' %}"><button class="btn-back">Home으로 돌아가기</button></a>
+</body>
+</html>
